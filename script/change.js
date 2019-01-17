@@ -1,5 +1,5 @@
 $(function() {
-	$('.currency_form .form-group').keyup(function() {
+	$('.form-group').keyup(function() {
 
 		var children = $(this).children("input");
 		var quotient = children.attr("data-value");
