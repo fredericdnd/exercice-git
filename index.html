@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Conertisseur de données</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="script/currency.js"></script>
+    <script src="script/distance.js"></script>
+</head>
+
+
+<body>
+    <h1>Convertisseur de données</h1>
+    <hr>
+    <br>
+    <h3>Distances</h3>
+    <form class="distance_form">
+        <div class="form-group">
+            <label for="input_km">Valeur en kilomètres</label>
+            <input type="text" class="form-control" id="input_km" placeholder="ex: 20 km">
+        </div>
+        <div class="form-group">
+            <label for="input_m">Valeur en mètres</label>
+            <input type="text" class="form-control" id="input_m" placeholder="ex: 20 000 m">
+        </div>
+    </form>
+    <hr>
+    <br>
+    <h3>Devises</h3>
+    <form class="currency_form">
+        <div class="form-group">
+            <label for="input_euro">Valeur en €</label>
+            <input type="text" class="form-control" id="input_km" placeholder="ex: 10 €">
+        </div>
+        <div class="form-group">
+            <label for="input_dollar">Valeur en $</label>
+            <input type="text" class="form-control" id="input_m" placeholder="ex: 11,4 $">
+        </div>
+    </form>
+</body>
+
+</html>
