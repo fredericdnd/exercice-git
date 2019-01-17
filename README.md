@@ -1,11 +1,10 @@
 # Convertisseur de données
 
 ### Membres du groupe :
-- Simon Fouin
-- Pierre Wacquez
-- Frédéric Dinand
+- Simon Fouin -> SimF-000
+- Pierre Wacquez -> kewarox
+- Frédéric Dinand -> fredericdnd
 
 ### Features
-- kg -> g
-- Km -> m
+- Km -> miles
 - € -> $
