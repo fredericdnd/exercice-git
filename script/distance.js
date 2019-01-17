@@ -1,10 +1,10 @@
 $( document ).ready(function() 
 {
     //En javascript pure
-    element_kilometre = document.getElementById('input_kilometre');
+    element_kilometre = document.getElementById('input_km');
 
     //En javascript jquery
-    element_mile = document.getElementById('input_mile');
+    element_mile = document.getElementById('input_m');
 
     element_kilometre.addEventListener('keyup', function (e) {Convertion_Distance(e.currentTarget) });
     element_mile.addEventListener('keyup', function (e) {Convertion_Distance(e.currentTarget) });
@@ -22,7 +22,7 @@ $( document ).ready(function()
          resultat = attribut_mile / 1.609;
 
          //Manipulation DOOM
-         document.getElementById('input_mile').setAttribute('placeholder', resultat);
+         document.getElementById('input_m').setAttribute('placeholder', resultat);
          
       }
       if ( mode === 'input_mile')
@@ -32,7 +32,7 @@ $( document ).ready(function()
           resultat = attribut_kilometre * 1.609;
 
           //Manipulation DOOM
-          document.getElementById('input_kilometre').setAttribute('placeholder', resultat);
+          document.getElementById('input_km').setAttribute('placeholder', resultat);
 
       }
       
