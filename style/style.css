@@ -1,0 +1,17 @@
+body {
+    margin: 50px;
+}
+
+h1 {
+    color: red;
+}
+
+h1:hover {
+    color: blue;
+}
+
+form {
+    background: #F9F9F9;
+    padding: 10px;
+    border-radius: 10px;
+}
