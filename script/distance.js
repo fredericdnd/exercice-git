@@ -15,7 +15,7 @@ $( document ).ready(function()
       console.log(element);
       mode = element.getAttribute("id");
 
-      if ( mode === 'input_kilometre')
+      if ( mode === 'input_km')
       {
          console.log('convertion mile');
          attribut_mile = element.value;          
@@ -25,7 +25,7 @@ $( document ).ready(function()
          document.getElementById('input_m').setAttribute('placeholder', resultat);
          
       }
-      if ( mode === 'input_mile')
+      if ( mode === 'input_m')
       {
           console.log("convertion_kilometre");      
           attribut_kilometre = element.value;
