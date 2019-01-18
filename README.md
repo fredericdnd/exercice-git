@@ -7,4 +7,4 @@
 
 ### Features
 - Km -> miles
-- € -> $
+- conversion : euros - dollars - pound - yen
